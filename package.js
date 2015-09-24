@@ -19,6 +19,6 @@ Package.onTest(function (api) {
   api.use("tinytest");
   api.use("joshjoe:plaid-link");
 
-  api.addFiles("tests/client/index.js", ["client"]);
+  api.addFiles("tests/client/tests.js", ["client"]);
 
 });
